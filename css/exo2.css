@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-size: 16px;
+    line-height: 1.6;
+    background: #f1f1f1;
+}
+section {
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    padding: 100px 8% 100px 8%;
+    overflow: hidden;
+}
+section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -4px;
+    
+section1{
+    background-image: url("../guga/illustration_principale.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+article{
+    background
+}
+.title{
+    
+}
+.texte-couleur-grise1{
+    color: antiquewhite;
+    font-size: 24px;
+}
+.yellow-button{
+    background-color: crimson;
+}
+.container{
+    max-width: 800px;
+    margin: 50px auto;
+}
+.tab_triger{
+
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.table_triger ul{
+    margin: 0;
+    padding:0;
+    list-style:none;
+    display:flex;
+}
+.tab_triger ul li{
+
+}
+.tab_triger ul li label{
+    position: relative;
+    display: block;
+    padding:8px 15px;
+    cursor: pointer;
+    min-width: 100px;
+    background: #e6e6e6;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px 8px 0 0;
+}
+.tab_triger ul li:nth-child(1) label{
+    background: #f0f0f0;
+}
+.tab_triger ul li:nth-child(2) label{
+    background: #e6e6e6;
+}
+.tab_triger ul li:nth-child(3) label{
+    background: #d9d9d9;
+}
+.tab_triger ul li:nth-child(4) label{
+    background: #f0f0f0;
+}
+                
+.tab_triger ul li:nth-child(5) label{
+    background: #ccc;
+}
+.tab_container_wrap input{
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin: 0;
+    z-index: -100;
+    top: -1000px;
+    
+}
+.tab_container_wrap input:checked + .tab_content_box{
+    display: block;
+}
+.tab_content_box{
+    background: #f0f0f0;
+    padding:20px;
+    display: none;
+}
+.tab_content_box:nth-of-type(1){
+    background: #f0f0f0;
+    
+}
+.tab_content_box:nth-of-type(2){
+    background: #d9d9d9;
+    
+}
+.tab_content_box:nth-of-type(3){
+    background: #8b6969;
+    
+}
+.tab_content_box:nth-of-type(4){
+    background: #d9d9d9;
+    
+}
+.tab_content_box:nth-of-type(5){
+    background: #ccc;
+    
+}
+.tab_content_box h2{
+    margin: 0 0 20px;
+}

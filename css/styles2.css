@@ -1,0 +1,143 @@
+/* Fonctionnements Global */
+body{
+width:100%;
+margin: 0;
+font-size: 16;
+}
+
+body*{
+box-sizing: border-box;
+}
+
+header{
+    align-items: center;
+    background-color: black;
+    display: flex;
+justify-content: space-between;
+height: 70px;
+width: 100%;
+}
+
+.logo{
+    margin-left: 10%;
+}
+
+
+h1{
+    color: antiquewhite;
+    font-size: 84px;
+}
+h2{
+color: cornsilk;
+font-size: 32px;
+margin-top: 151px;
+}
+h3{
+color: crimson;
+}
+h4{
+color: cyan;
+}
+h5{
+    color: azure;
+}
+ul {
+    
+    list-style-type: none;
+    color: blanchedalmond;
+    display: contents;
+}
+section {
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    padding: 100px 8% 100px 8%;
+    overflow: hidden;
+}
+section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -4px;
+/* UtilisÃ© pour l'effet parallax */
+    transform: translateZ(-1px) scale(1.5);
+    z-index: -1;
+    transition: all 0.2s ease-in-out;
+}
+/* Remplacement des comportements d'origine */
+/* Fonctionnements reutilisables */
+/* Conteneur des elements */
+/* Liste des arguments du site */
+/* Soulignage Ã  positionner sur un texte */
+
+.souligne-texte-rose {
+    background: src="../guga/souligne_rose.svg" no-repeat;
+}
+
+/* Bouton site */
+/* Affichage des cartes */
+/* Gestion des illustrations interpage */
+/* Formulaire */
+/* Cas specifiques */
+/* Affichage des maki */
+/* Contenu */
+
+
+/* CSS contenu commun */
+/*<!----------------------------------------section1 ------------------------------>*/
+#section1{
+    background-image: url("../guga/illustration_principale.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+article{
+    background
+}
+.title{
+    
+}
+.texte-couleur-grise1{
+    color: antiquewhite;
+    font-size: 24px;
+}
+.yellow-button{
+    background-color: crimson;
+}
+/*<!----------------------------------------section2 ------------------------------>*/
+
+
+/*<!----------------------------------------section3 ------------------------------>*/
+#section3 {background:url(../guga/illustration_chef.jpg) no-repeat;
+    
+}
+#section3 .conteneur-video{
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+    height: 134px;
+    width: 236px;
+    margin: 97px;
+    border-radius: 50%;
+}
+.bouton-play{
+    position: absolute;
+    display: flex;
+    border-radius: 50%;
+    top: 50%;
+    left:50%;
+    width:77px;
+    height:77px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/*<!----------------------------------------section4 ------------------------------>*/
+#section4  {background:url(../guga/illustration_commander.jpg) no-repeat;
+}
+/*<!----------------------------------------section5 ------------------------------>*/
+#section5 {background:url(../guga/illustration_formulaire2.jpg) no-repeat;
+}
+/*footer*/
